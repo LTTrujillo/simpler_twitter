@@ -1,11 +1,11 @@
-# -*- encoding: utf-8 -*-
+y# -*- encoding: utf-8 -*-
 require File.expand_path('../lib/simple_twitter/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Logan Trujillo"]
   gem.email         = ["logantrujillo7767@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{This is a gem for researching twitter}
+  gem.summary       = %q{Best twitter gem ever made}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
