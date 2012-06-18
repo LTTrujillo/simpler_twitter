@@ -1,4 +1,4 @@
-y# -*- encoding: utf-8 -*-
+# -*- encoding: utf-8 -*-
 require File.expand_path('../lib/simple_twitter/version', __FILE__)
 
 Gem::Specification.new do |gem|
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "simple_twitter"
   gem.require_paths = ["lib"]
   gem.version       = SimpleTwitter::VERSION
+  gem.add_dependency('httparty','~>0.8.3')
 end
